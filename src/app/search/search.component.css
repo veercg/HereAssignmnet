@@ -2,17 +2,31 @@
     width:100%;
     min-height: 1200px;
     height: auto;
+    padding: 16px;
 }
 .search-sidebar {
-    margin-top: 8px;
+    margin-top: 24px;
 }
 .search-toolbar{
     font: 50 15px/30px Roboto,"Helvetica Neue",sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: 48px;
 }
 .feeds-container{
     display: flex;
     flex-flow: row wrap;
+    padding-left: 16px;
 }
 .feeds-container div{
-    margin: 5px;
+    margin: 8px;
 }
+.filter-icon {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .filter-icon {
+        display: inline;
+    }
+  }

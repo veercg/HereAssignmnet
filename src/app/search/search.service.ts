@@ -19,8 +19,14 @@ export class SearchService {
   private updateFeedList = new BehaviorSubject<any>(undefined);
   currentUpdateFeedList = this.updateFeedList.asObservable();
 
+  private updateFilterList = new BehaviorSubject<any>(undefined);
+  currentupdateFilterList = this.updateFilterList.asObservable();
+
   initiateFeedListUpdate(value: any) {
     this.updateFeedList.next(value);
+  }
+  initiateFilterListUpdate(value: any) {
+    this.updateFilterList.next(value);
   }
 
   constructor(private http: HttpClient) {

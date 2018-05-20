@@ -14,7 +14,7 @@ import { FilterChip } from '../interface/filter-chip.interface';
   styleUrls: ['./filter.component.css']
 })
 export class FilterComponent implements OnInit {
-  feedSources = ['Referral', 'Linkedin.com', 'Naukri.com', 'Socedo.com'];
+  feedSources = ['Referral', 'Linkedin.com', 'Indeed.com', 'Naukri.com', 'Socedo.com'];
   regions: Region[];
   filterChips: FilterChip[] = [];
 
@@ -44,12 +44,14 @@ export class FilterComponent implements OnInit {
     const filters = this.getSelectedFilters();
     this.searchService.initiateFeedListUpdate(filters);
     this.filterChips = this.prepareFilterchips(filters);
+    this.searchService.initiateFilterListUpdate(this.filterChips);
   }
 
   onCitiesSelectionChange() {
     const filters = this.getSelectedFilters();
     this.searchService.initiateFeedListUpdate(filters);
     this.filterChips = this.prepareFilterchips(filters);
+    this.searchService.initiateFilterListUpdate(this.filterChips);
   }
 
   getSelectedFilters() {
