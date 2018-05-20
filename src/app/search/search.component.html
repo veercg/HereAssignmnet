@@ -1,12 +1,12 @@
 <mat-toolbar class="search-toolbar">
-    <button mat-icon-button class="primary filter-icon margin-right-1" matTooltip="Apply Filters" (click)="drawer.toggle()">
+    <button mat-icon-button class="primary margin-right-1" matTooltip="Apply Filters" (click)="drawer.toggle()">
       <mat-icon aria-label="Apply Filters">filter_list</mat-icon>
     </button>
     <span>Search Results</span>
 </mat-toolbar>
 
 <mat-drawer-container class="search-container">
-  
+
   <mat-drawer #drawer mode="side" opened="{{sideBarOpened}}" class="search-sidebar">
     <app-filter></app-filter>
   </mat-drawer>

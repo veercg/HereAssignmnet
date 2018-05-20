@@ -2,6 +2,9 @@
     width: 249px;
     padding: 8px;
 }
+.filter-header-div {
+    display: flex;
+}
 .filter-header{
     margin: 0px;
     font: 50 15px/30px Roboto,"Helvetica Neue",sans-serif;

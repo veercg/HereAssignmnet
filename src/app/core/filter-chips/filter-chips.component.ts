@@ -10,21 +10,17 @@ import { FilterChip } from '../../interface/filter-chip.interface';
 })
 export class FilterChipsComponent implements OnInit {
 
-  visible = true;
-  selectable = true;
-  removable = true;
-  addOnBlur = true;
+  // visible = true;
+  // selectable = true;
+  // removable = true;
+  // addOnBlur = true;
 
   // Enter, comma
   separatorKeysCodes = [ENTER, COMMA];
 
   @Input()
   filters: FilterChip[];
-  // = [
-  //   { name: 'Lemon' },
-  //   { name: 'Lime' },
-  //   { name: 'Apple' },
-  // ];
+
   constructor() { }
 
   ngOnInit() {
@@ -34,7 +30,6 @@ export class FilterChipsComponent implements OnInit {
     const input = event.input;
     const value = event.value;
 
-    // Add our fruit
     if ((value || '').trim()) {
       this.filters.push({ name: value.trim() });
     }
