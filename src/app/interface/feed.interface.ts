@@ -6,4 +6,5 @@ export interface Feed {
     country: string;
     img: string;
     skills: string;
+    feed_source: string;
 }
