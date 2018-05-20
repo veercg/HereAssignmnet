@@ -12,7 +12,7 @@ export class FilterChipsComponent implements OnInit {
 
   // visible = true;
   // selectable = true;
-  // removable = true;
+  removable = true;
   // addOnBlur = true;
 
   // Enter, comma
