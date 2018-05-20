@@ -5,6 +5,6 @@ export interface Feed {
     city: string;
     country: string;
     img: string;
-    skills: string;
+    skills: string[];
     feed_source: string;
 }

@@ -24,9 +24,6 @@ export class FilterComponent implements OnInit {
   @ViewChild('cities')
   regionOptions: MatSelectionList;
 
-  @Output()
-  filtersSelected: EventEmitter<MatSelectionListChange>;
-
   constructor(private searchService: SearchService) { }
 
   ngOnInit() {
@@ -69,8 +66,8 @@ export class FilterComponent implements OnInit {
         chips = _.concat(chips, keyFilterChips);
       });
     }
-    console.log(filters);
-    console.log(chips);
+    // console.log(filters);
+    // console.log(chips);
     return chips;
   }
 }
