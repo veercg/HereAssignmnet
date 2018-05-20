@@ -40,14 +40,7 @@ export class FilterComponent implements OnInit {
       });
   }
 
-  onSourceSelectionChange() {
-    const filters = this.getSelectedFilters();
-    this.searchService.initiateFeedListUpdate(filters);
-    this.filterChips = this.prepareFilterchips(filters);
-    this.searchService.initiateFilterListUpdate(this.filterChips);
-  }
-
-  onCitiesSelectionChange() {
+  onFilterSelectionChange() {
     const filters = this.getSelectedFilters();
     this.searchService.initiateFeedListUpdate(filters);
     this.filterChips = this.prepareFilterchips(filters);

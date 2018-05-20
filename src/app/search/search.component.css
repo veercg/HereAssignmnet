@@ -16,7 +16,7 @@
 .feeds-container{
     display: flex;
     flex-flow: row wrap;
-    padding-left: 16px;
+    
 }
 .feeds-container div{
     margin: 8px;
@@ -29,4 +29,9 @@
     .filter-icon {
         display: inline;
     }
-  }
+}
+@media screen and (min-width: 768px) {
+    .padding-left-2-md{
+        padding-left: 16px;
+    }
+}

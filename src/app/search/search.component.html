@@ -3,25 +3,20 @@
       <mat-icon aria-label="Apply Filters">filter_list</mat-icon>
     </button>
     <span>Search Results</span>
-    <!-- This fills the remaining space of the current row -->
-    <!-- <span class="fill-remaining-space"></span>
-  
-    <span>
-      <mat-form-field class="example-full-width">
-        <input type="text" matInput placeholder="Search">
-        <mat-icon matSuffix>search</mat-icon>
-      </mat-form-field>
-    </span> -->
 </mat-toolbar>
+
 <mat-drawer-container class="search-container">
+  
   <mat-drawer #drawer mode="side" opened="{{sideBarOpened}}" class="search-sidebar">
     <app-filter></app-filter>
   </mat-drawer>
+
   <mat-drawer-content>
-    <div class="feeds-container">
+    <div class="feeds-container padding-left-2-md">
       <div *ngFor="let item of filteredFeeds">
           <app-card [feed]="item"></app-card>
       </div>
     </div>
   </mat-drawer-content>
+
 </mat-drawer-container>
