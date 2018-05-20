@@ -1,11 +1,13 @@
 # Here Assignment : Employee Central
 
 This project uses below technologies :
-Angular 6.0.1.
-Angular CLI
-Angular Material
-HTML5
-CSS3
+* Angular 6.0.1.
+* Typescript
+* Angular CLI
+* Angular Material
+* RxJs
+* HTML5
+* CSS3
 
 ## Development server
 
