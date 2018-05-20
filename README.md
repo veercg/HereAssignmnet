@@ -1,6 +1,11 @@
-# Here
+# Here Assignment : Employee Central
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
+This project uses below technologies :
+Angular 6.0.1.
+Angular CLI
+Angular Material
+HTML5
+CSS3
 
 ## Development server
 
