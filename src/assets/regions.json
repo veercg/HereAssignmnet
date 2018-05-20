@@ -1,0 +1,26 @@
+[
+    {
+    "name": "London",
+    "country": "United Kingdom"
+    },
+    {
+      "name": "Paisley",
+      "country": "United Kingdom"
+    },
+    {
+    "name": "Glasgow",
+    "country": "United Kingdom"
+    },
+    {
+      "name": "San Francisco Bay Area",
+      "country": "United States"
+    },
+    {
+      "name": "Greater Pittsburgh Area",
+      "country": "United States"
+    },
+    {
+      "name": "Greater Seattle Area",
+      "country": "United States"
+    }
+]

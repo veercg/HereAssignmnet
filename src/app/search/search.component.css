@@ -1,0 +1,18 @@
+.search-container{
+    width:100%;
+    min-height: 1200px;
+    height: auto;
+}
+.search-sidebar {
+    margin-top: 8px;
+}
+.search-toolbar{
+    font: 50 15px/30px Roboto,"Helvetica Neue",sans-serif;
+}
+.feeds-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.feeds-container div{
+    margin: 5px;
+}

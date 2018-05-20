@@ -1,0 +1,17 @@
+.example-card {
+  min-width: 300px;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+
+.card-content{
+  white-space: nowrap; 
+  width: 300px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.example-card .mat-list .mat-list-item .mat-list-item-content {
+  padding: 0 8px;
+}

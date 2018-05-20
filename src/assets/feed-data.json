@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Alvaro Echevarria",
+        "title": "Technology Analyst",
+        "company" : "J.P. Morgan",
+        "city": "London",
+        "country": "United Kingdom",
+        "img": "https://media.licdn.com/dms/image/C4D03AQHgd_b0qMGjTg/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=uB1OUbJecp1-tKUA_blA3FXE4rZoUJQWu1TyQJTKakM",
+        "skills": ["java","react","redux"],
+        "feed_source": "Referral"
+    },
+    {
+        "name": "Ashish Kulkarni",
+        "title": "Associate",
+        "company" : "J.P. Morgan",
+        "city": "London",
+        "country": "United Kingdom",
+        "img": "https://media.licdn.com/dms/image/C4E03AQHthVjJ2oD-5g/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=KXmAxUReA08lXNncFynZ2uayAIObEiYgojwF0tDqNPI",
+        "skills": ["java","Angular","HTML5","CSS3"],
+        "feed_source": "Naukri.com"
+    },
+    {
+        "name": "Saurabh Pareek",
+        "title": "Senior Developer",
+        "company" : "Nomura",
+        "city": "Paisley",
+        "country": "United Kingdom",
+        "img": "https://media.licdn.com/dms/image/C4E03AQHYRtsQgU_BMw/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=x5-TXB2n0d9wpCrSfetkX9DgMnjxNT50_ASIlSwmorI",
+        "skills": [".Net","C#","Angular","Jquery"],
+        "feed_source": "Linkedin.com"
+    },
+    {
+        "name": "Prajakta Jog",
+        "title": "Quant Developer",
+        "company" : "BNP Paribas",
+        "city": "Glasgow",
+        "country": "United Kingdom",
+        "img": "https://media.licdn.com/dms/image/C4D03AQEe9mxkbMZn9A/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=XM4tLvjQu4-DnIct9GIzZ2LsHzs-uPceP_MpmXiRgtU",
+        "skills": ["java","Quant"],
+        "feed_source": "indeed.com"
+    },
+    {
+        "name": "Michael Warner",
+        "title": "Senior UI Developer",
+        "company" : "eBay Inc",
+        "city": "San Francisco Bay Area",
+        "country": "United States",
+        "img": "https://media.licdn.com/dms/image/C4E03AQG6dqDSQB9CUQ/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=J4P0zI9l5SwrHTSyBCFE1sdNLDeeUw3EG03fBldQ0-c",
+        "skills": ["Angular","Angular2","javascript","HTML5","CSS3","Jquery"],
+        "feed_source": "Linkedin.com"
+    },
+    {
+        "name": "John Gwyneth",
+        "title": "Senior Java/JEE Developer",
+        "company" : "Walmart",
+        "city": "Greater Pittsburgh Area",
+        "country": "United States",
+        "img": "https://media.licdn.com/dms/image/C5603AQGAYzSt3r7zEw/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=8KwVQj6fCW0yKY-keb0KDmfDtSxfeH7GSchu2z1A8W4",
+        "skills": ["java","jee","Spring","Hibernate"],
+        "feed_source": "Referral"
+    },
+    {
+        "name": "Zeme Olotu",
+        "title": "Software Engineer",
+        "company" : "eBay Inc",
+        "city": "London",
+        "country": "United Kingdom",
+        "img": "https://media.licdn.com/dms/image/C5603AQGp23AU9QLH6g/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=rl7NYwUGwG01bxclUy_HMyOLKq9WrBTIZExXav2RxNw",
+        "skills": ["spark","hive","hadoop","Big Data"],
+        "feed_source": "Indeed.com"
+    },
+    {
+        "name": "Colin Findlay",
+        "title": "Software Engineer",
+        "company" : "Amazon",
+        "city": "San Francisco Bay Area",
+        "country": "United States",
+        "img": "https://media.licdn.com/dms/image/C4E03AQG_yJXtLh3Ndw/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=22Eb1pnlHLhwXw3Vnfa2Z2190P3fP6y9lwNnKhnnZiw",
+        "skills": ["machine learning","hadoop","Big Data"],
+        "feed_source": "Socedo.com"
+    },
+    {
+        "name": "Leanne Toliver",
+        "title": "Director",
+        "company" : "eBay Inc",
+        "city": "Greater Seattle Area",
+        "country": "United States",
+        "img": "https://media.licdn.com/dms/image/C5603AQHoXp7Jnaw5Aw/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=J98cOqWAS3TMP24XsJWdS_GcxAZFTQDys-wBn5nmeX0",
+        "skills": ["Security Governance", "Risk", "Compliance"],
+        "feed_source": "Referral"
+    }
+]

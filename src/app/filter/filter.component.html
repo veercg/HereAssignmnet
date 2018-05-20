@@ -1,0 +1,19 @@
+<div class="filter-container">
+  <h3 class="filter-header">Filters</h3>
+  <app-filter-chips [filters]="filterChips"></app-filter-chips>
+    <mat-list>
+        <h3 mat-subheader>Source of feeds</h3>
+        <mat-selection-list #sources (selectionChange)="onSourceSelectionChange($event)">
+          <mat-list-option *ngFor="let source of feedSources" [value]="source">
+            {{source}}
+          </mat-list-option>
+        </mat-selection-list>
+        <mat-divider></mat-divider>
+        <h3 mat-subheader>Region/ City</h3>
+        <mat-selection-list #cities (selectionChange)="onCitiesSelectionChange($event)">
+            <mat-list-option *ngFor="let city of regions" [value]="city.name">
+              {{city.name}}
+            </mat-list-option>
+          </mat-selection-list>
+      </mat-list>
+</div>
