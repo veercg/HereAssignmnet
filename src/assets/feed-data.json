@@ -5,7 +5,7 @@
         "company" : "J.P. Morgan",
         "city": "London",
         "country": "United Kingdom",
-        "img": "https://media.licdn.com/dms/image/C4D03AQHgd_b0qMGjTg/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=uB1OUbJecp1-tKUA_blA3FXE4rZoUJQWu1TyQJTKakM",
+        "img": "../assets/userA.png",
         "skills": ["java","react","redux"],
         "feed_source": "Referral"
     },
@@ -15,7 +15,7 @@
         "company" : "J.P. Morgan",
         "city": "London",
         "country": "United Kingdom",
-        "img": "https://media.licdn.com/dms/image/C4E03AQHthVjJ2oD-5g/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=KXmAxUReA08lXNncFynZ2uayAIObEiYgojwF0tDqNPI",
+        "img": "../assets/userC.png",
         "skills": ["java","Angular","HTML5","CSS3"],
         "feed_source": "Naukri.com"
     },
@@ -25,7 +25,7 @@
         "company" : "Nomura",
         "city": "Paisley",
         "country": "United Kingdom",
-        "img": "https://media.licdn.com/dms/image/C4E03AQHYRtsQgU_BMw/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=x5-TXB2n0d9wpCrSfetkX9DgMnjxNT50_ASIlSwmorI",
+        "img": "../assets/userB.png",
         "skills": [".Net","C#","Angular","Jquery"],
         "feed_source": "Linkedin.com"
     },
@@ -35,7 +35,7 @@
         "company" : "BNP Paribas",
         "city": "Glasgow",
         "country": "United Kingdom",
-        "img": "https://media.licdn.com/dms/image/C4D03AQEe9mxkbMZn9A/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=XM4tLvjQu4-DnIct9GIzZ2LsHzs-uPceP_MpmXiRgtU",
+        "img": "../assets/userE.png",
         "skills": ["java","Quant"],
         "feed_source": "indeed.com"
     },
@@ -45,7 +45,7 @@
         "company" : "eBay Inc",
         "city": "San Francisco Bay Area",
         "country": "United States",
-        "img": "https://media.licdn.com/dms/image/C4E03AQG6dqDSQB9CUQ/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=J4P0zI9l5SwrHTSyBCFE1sdNLDeeUw3EG03fBldQ0-c",
+        "img": "../assets/userA.png",
         "skills": ["Angular","Angular2","javascript","HTML5","CSS3","Jquery"],
         "feed_source": "Linkedin.com"
     },
@@ -55,7 +55,7 @@
         "company" : "Walmart",
         "city": "Greater Pittsburgh Area",
         "country": "United States",
-        "img": "https://media.licdn.com/dms/image/C5603AQGAYzSt3r7zEw/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=8KwVQj6fCW0yKY-keb0KDmfDtSxfeH7GSchu2z1A8W4",
+        "img": "../assets/userA.png",
         "skills": ["java","jee","Spring","Hibernate"],
         "feed_source": "Referral"
     },
@@ -65,7 +65,7 @@
         "company" : "eBay Inc",
         "city": "London",
         "country": "United Kingdom",
-        "img": "https://media.licdn.com/dms/image/C5603AQGp23AU9QLH6g/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=rl7NYwUGwG01bxclUy_HMyOLKq9WrBTIZExXav2RxNw",
+        "img": "../assets/userC.png",
         "skills": ["spark","hive","hadoop","Big Data"],
         "feed_source": "Indeed.com"
     },
@@ -75,7 +75,7 @@
         "company" : "Amazon",
         "city": "San Francisco Bay Area",
         "country": "United States",
-        "img": "https://media.licdn.com/dms/image/C4E03AQG_yJXtLh3Ndw/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=22Eb1pnlHLhwXw3Vnfa2Z2190P3fP6y9lwNnKhnnZiw",
+        "img": "../assets/userB.png",
         "skills": ["machine learning","hadoop","Big Data"],
         "feed_source": "Socedo.com"
     },
@@ -85,7 +85,7 @@
         "company" : "eBay Inc",
         "city": "Greater Seattle Area",
         "country": "United States",
-        "img": "https://media.licdn.com/dms/image/C5603AQHoXp7Jnaw5Aw/profile-displayphoto-shrink_100_100/0?e=1531958400&v=beta&t=J98cOqWAS3TMP24XsJWdS_GcxAZFTQDys-wBn5nmeX0",
+        "img": "../assets/userA.png",
         "skills": ["Security Governance", "Risk", "Compliance"],
         "feed_source": "Referral"
     }
